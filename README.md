@@ -1,2 +1,2 @@
-# itc115
+# ITC115
 Java: Object Oriented Programming
