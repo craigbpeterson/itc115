@@ -20,5 +20,7 @@ public class PowersOfN {
 			int powResult = (int) Math.pow(base, i);
 			System.out.print(powResult + " ");
 		}
+		
 	}
+	
 }
