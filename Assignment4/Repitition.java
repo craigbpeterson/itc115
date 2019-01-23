@@ -2,6 +2,7 @@
 public class Repetition {
 
 	public static void main(String[] args) {
+		repl("test", 0);
 		repl("hello", 3);
 		repl("world", 10);
 
