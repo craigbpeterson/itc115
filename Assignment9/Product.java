@@ -8,8 +8,7 @@ public class Product {
 	private int productCount;
 	
 	/* CONSTRUCTOR */
-	//precondition: productCode != 0
-	//				description != null
+	//precondition: productCode != 0 and description != null
 	public Product(int productCode, String description, double price, int productCount) {
 		if (productCode == 0 || description == null) {
 			throw new NullPointerException();
