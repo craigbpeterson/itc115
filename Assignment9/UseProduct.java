@@ -10,7 +10,7 @@ public class UseProduct {
 		Product pants = new Product(2, "Jeans", 39.99, 8);
 		totalProductCount += pants.getProductCount();
 		
-		Product shoes = new Product(3, "Hiking Boots", 80, 7);
+		Product shoes = new Product(3, "Sneakers", 60, 7);
 		totalProductCount += shoes.getProductCount();
 
 		//display results of product instantiation
