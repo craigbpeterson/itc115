@@ -6,6 +6,7 @@ public class Product {
 	private String description;
 	private double price;
 	private int productCount;
+	private static int instantiations = 0;
 	
 	/* CONSTRUCTOR */
 	//precondition: productCode != 0 and description != null
@@ -18,8 +19,10 @@ public class Product {
 		this.description = description;
 		this.price = price;
 		this.productCount = productCount;
+		
+		//add to static count each time a product is instantiated
+		instantiations++;
 	}
-
 	
 	/* METHODS */
 	//returns a string with a currency format appropriate for display to the user
@@ -32,10 +35,6 @@ public class Product {
 	public String toString() {
 		String formattedPrice = this.getPriceFormatted();
 		return "Product Code: " + productCode + " | Description: " + description + " | Price: " + formattedPrice + " | Product Count: " + productCount;
-	}
-	
-	public int getCount() {
-		return this.productCount;
 	}
 	
 	//getters and setters
@@ -69,6 +68,11 @@ public class Product {
 
 	public void setProductCount(int productCount) {
 		this.productCount = productCount;
+	}
+	
+	//returns static variable for number of product instantiations
+	public static int getCount() {
+		return instantiations;
 	}
 	
 }
