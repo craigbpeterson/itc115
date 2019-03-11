@@ -16,6 +16,7 @@ public class UseTicket {
 			new AdvanceTicket(7),
 			new WalkupTicket(),
 			new AdvanceTicket(3),
+			new StudentAdvanceTicket(12),
 			new StudentAdvanceTicket(3)
 		};
 		
