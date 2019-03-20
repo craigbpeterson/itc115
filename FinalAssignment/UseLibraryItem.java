@@ -45,15 +45,15 @@ public class UseLibraryItem {
 		//create new CD
 		//first create an array for the track list
 		String [] trackList = { "Natural Mystic",
-								"So Much Things to Say",
-								"Guiltiness",
-								"The Heathen",
-								"Exodus",
-								"Jamming",
-								"Waiting in Vain",
-								"Turn Your Lights Down Low",
-								"Three Little Birds",
-								"One Love/People Get Ready" };
+					"So Much Things to Say",
+					"Guiltiness",
+					"The Heathen",
+					"Exodus",
+					"Jamming",
+					"Waiting in Vain",
+					"Turn Your Lights Down Low",
+					"Three Little Birds",
+					"One Love/People Get Ready" };
 		
 		//then instantiate new CD object
 		CD cd1 = new CD("Exodus", "Bob Marley and the Wailers", "Island Records", trackList);
