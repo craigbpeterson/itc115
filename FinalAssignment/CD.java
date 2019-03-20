@@ -6,7 +6,7 @@ public class CD extends LibraryItem {
 	private String[] trackList;
 	
 	/* CONSTRUCTOR */
-	public CD(String title, String artist, String recordLabel, String[] trackList) { //duration should be total minutes
+	public CD(String title, String artist, String recordLabel, String[] trackList) { //trackList must be an array of strings
 		super(title);
 		this.artist = artist;
 		this.recordLabel = recordLabel;
